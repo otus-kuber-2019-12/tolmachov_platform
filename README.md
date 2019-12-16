@@ -21,5 +21,5 @@ Run frontend:
 
 ```bash
 kubectl apply -f frontend-pod-healthy.yaml
-sudo kubectl port-forward web 8080:8080
+sudo kubectl port-forward frontend 8080:8080
 ```
